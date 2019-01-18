@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.ucidining">
+
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UCI Dining"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="info.androidhive.ucidining.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="info.androidhive.ucidining.MainActivity"
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="info.androidhive.ucidining.convenienceActivity" />
+        <activity android:name="info.androidhive.ucidining.pippinActivity" />
+        <activity android:name="info.androidhive.ucidining.cafeActivity" />
+        <activity android:name="info.androidhive.ucidining.restaurantsActivity" />
+        <activity android:name="info.androidhive.ucidining.bcActivity" />
+        <activity android:name="info.androidhive.ucidining.phoenixActivity" />
+        <activity android:name="info.androidhive.ucidining.studentcenterActivity" />
+        <activity android:name="info.androidhive.ucidining.diningHallsActivity" />
+        <activity android:name="info.androidhive.ucidining.anteateryActivity" />
+        <activity android:name="info.androidhive.ucidining.anteateryBreakfastActivity" />
+        <activity android:name="info.androidhive.ucidining.anteateryLunchActivity" />
+        <activity android:name="info.androidhive.ucidining.anteateryDinnerActivity" />
+        <activity android:name="info.androidhive.ucidining.anteateryLateNightActivity"></activity>
+        <activity android:name="info.androidhive.ucidining.pippinBreakfastActivity"/>
+        <activity android:name="info.androidhive.ucidining.pippinLunchActivity"/>
+        <activity android:name="info.androidhive.ucidining.pippinDinnerActivity"/>
+    </application>
+
+</manifest>

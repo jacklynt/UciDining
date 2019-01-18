@@ -1,0 +1,35 @@
+<resources>
+    <!--<string name="app_name">Intro Slider</string>-->
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">UCI Dining Halls!</string>
+    <string name="slide_1_desc">Easy access to daily menus on the go!</string>
+
+    <string name="slide_2_title">Campus Cafes!</string>
+    <string name="slide_2_desc">Your favorite places to grab a cup of coffee and relax with friends!</string>
+
+    <string name="slide_3_title">Campus Restaurants!</string>
+    <string name="slide_3_desc">UCI offers a variety of restaurants on campus so you can satisfy your hunger!</string>
+
+    <string name="slide_4_title">Convenience Stores!</string>
+    <string name="slide_4_desc">For your on the go needs!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+    <!-- dining strings -->
+    <string name="app_name">UCI Dining</string>
+    <string name="anteatery">The Anteatery</string>
+    <string name="pippin">Pippin Commons</string>
+    <string name="dining_hall_header">Dining Halls</string>
+    <string name="other_dining_header">Other Campus Dining Options</string>
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+    <string name="latenight">Late Night</string>
+    <string name="title_activity_anteatery_dinner">anteateryDinnerActivity</string>
+    <string name="title_activity_anteatery_late_night">anteateryLateNightActivity</string>
+</resources>
